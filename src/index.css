@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  line-height: 1.6;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: #071422;
+  color: #afc2d4;
+  padding-bottom: 2rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #e7edf4;
+  font-weight: 700;
+}

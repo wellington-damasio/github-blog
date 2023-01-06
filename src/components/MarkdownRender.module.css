@@ -1,0 +1,45 @@
+.markdownRender p {
+  margin-bottom: 1rem;
+}
+
+.markdownRender h1,
+.markdownRender h2,
+.markdownRender h3,
+.markdownRender h4 {
+  margin-bottom: 1.3rem;
+}
+
+.markdownRender h2 {
+  font-size: 1.5rem;
+}
+
+.markdownRender h3 {
+  font-size: 1.2rem;
+}
+
+.markdownRender h4 {
+  font-size: 1rem;
+}
+
+.markdownRender code {
+  background-color: #1c2f41;
+  padding: 0.15rem 0.2rem;
+  border-radius: 2px;
+}
+
+.markdownRender pre {
+  margin-bottom: 1rem;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.markdownRender pre code {
+  background-color: transparent;
+  padding: 0;
+  border-radius: none;
+}
+
+.markdownRender a {
+  color: #3294f8;
+  text-decoration: underline;
+}
