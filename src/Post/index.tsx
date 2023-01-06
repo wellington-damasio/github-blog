@@ -3,13 +3,7 @@ import axios from "axios";
 import { MarkdownRender } from "../components/MarkdownRender";
 import { PostInfoCard } from "./PostInfoCard";
 
-interface PostLoaderParamsTypes {
-  params: {
-    id: string;
-  };
-}
-
-export const postLoader = async ({ params }: PostLoaderParamsTypes) => {
+export const postLoader = async ({ params }: any) => {
   const apiResponse = await axios.get(
     `https://api.github.com/repos/wellington-damasio/github-blog_issues/issues/${params.id}`,
     {
