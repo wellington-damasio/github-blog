@@ -34,6 +34,9 @@ I didn't know I could pass header parameters to a request with Axios until I fac
 ### React Router
 I used the wrong type of Router component when building the application, so when it came the time to try consuming GitHub's API using the Routes so the post would load before the page rendered I had some problems.
 
+### Styling Markdown
+I had some issues when it came to the style of rendered markdown text to HTML code. After some research I found the right libraries to style the code tags the way I intended.
+
 
 ## What I learned 👨‍🏫
 - How to better plan the structure (HTML), styles (CSS) and functionalities (JS) of an application by looking at a design/mockup
@@ -42,3 +45,4 @@ I used the wrong type of Router component when building the application, so when
 - How to use TailwindCSS and how the concept of utility-first classes help improve the development time
 - How to use react-router-dom to make a multi-page SPA 
 - How to use the useEffect hook to consume API
+- How to use ReactMarkdown to render markdown text to HTML code
