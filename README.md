@@ -1,8 +1,7 @@
 # Coffee Delivery
 
-![](screenshots/home.png)      |  ![](screenshots/home2.png)
+![](screenshots/screenshot1.png)      |  ![](screenshots/screenshot2.png)
 :-------------------------:|:-------------------------:
-:![](screenshots/checkout.png)      |  ![](screenshots/success.png)
         
 ## About the project 💻
 This is a challenge from the third chapter of Rocketseat's React Ignite classes.
