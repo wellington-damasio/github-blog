@@ -8,7 +8,7 @@ export const postLoader = async ({ params }: any) => {
     `https://api.github.com/repos/wellington-damasio/github-blog_issues/issues/${params.id}`,
     {
       headers: {
-        authorization: "token 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",
+        authorization: "token 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",
       },
     }
   );

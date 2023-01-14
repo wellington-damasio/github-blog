@@ -35,10 +35,12 @@ export const AuthorPostsContextProvider = ({
         "https://api.github.com/repos/wellington-damasio/github-blog_issues/issues",
         {
           headers: {
-            authorization: "token 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",
+            authorization: "token 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",
           },
         }
       );
+
+      console.log(apiResponse.data);
 
       setPosts(apiResponse.data);
       setFilteredPosts(apiResponse.data);
